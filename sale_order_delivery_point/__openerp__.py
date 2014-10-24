@@ -36,6 +36,7 @@
         'sale',
     ],
     'data': [
+        'sale_order_extension.xml',
     ],
     'demo': [
     ],
