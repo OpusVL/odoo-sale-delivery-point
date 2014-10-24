@@ -20,6 +20,8 @@
 #
 ##############################################################################
 
-from . import sale_order_extension
+from openerp import models, fields, api
+
+
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
