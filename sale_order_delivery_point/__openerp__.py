@@ -27,9 +27,7 @@
     'author': 'OpusVL',
     'website': 'http://opusvl.com/',
     'summary': 'Add a "Delivery Point" contact to sales orders',
-    
     'category': 'Sales',
-    
     'description': """Add a "Delivery Point" contact to sales orders,
 """,
     'images': [
