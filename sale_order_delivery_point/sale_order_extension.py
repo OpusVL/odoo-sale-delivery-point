@@ -22,6 +22,11 @@
 
 from openerp import models, fields, api
 
+class sale_order_extension(models.Model):
+    _inherit = 'sale.order'
 
+    delivery_point_partner_id = fields.Many2one('res.partner',
+        string='Delivery Point',
+    )
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
